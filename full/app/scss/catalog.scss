@@ -1,0 +1,349 @@
+@import '_vars';
+
+.catalog-info {
+  background-color: #F1F1F1;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  .col-lg-7 {
+    z-index: 1;
+    position: relative;
+    background-color: #F1F1F1;
+    text-align: left;
+  }
+  h1 {
+    font-family: 'HeliosCond', serif;
+    font-size: 55px;
+    line-height: 64px;
+    color: $black;
+    margin-top: 0;
+  }
+  p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &--img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    max-width: 50%;
+    transform: translateY(-50%);
+    max-height: 600px;
+  }
+}
+
+.catalog-info-bottom {
+  margin-top: 50px;
+  &-item {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 33%;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  &-text {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 80px;
+    padding-right: 30px;
+  }
+  &-icon {
+    max-width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+
+.catalog-filter {
+  background-color: #F5F3F3;
+  padding: 30px 0;
+  &--item {
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+  }
+
+  &--label {
+    color: #8B8D8D;
+    margin-bottom: 10px;
+  }
+}
+
+.reses-filter {
+  color: $green;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0px 20px 20px 0;
+  span {
+    border-bottom: 1px dashed $green;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  &:hover {
+    span {
+      border-bottom: 1px dashed transparent;
+    }
+  }
+}
+
+
+.catalog-list {
+  &--wrap {
+    padding: 50px 0 0 0;
+  }
+  &--menu {
+    display: flex;
+    align-items: center;
+    border: 1px solid $l-grey;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    .chosen-container {
+      margin-left: 10px;
+    }
+  }
+  &--menu-right {
+    margin-left: auto;
+    button {
+      border: 0;
+      background: transparent;
+      opacity: 0.5;
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+.catalog-list {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.catalog-list--row {
+  .catalog-item {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    &--inner {
+      min-height: 300px;
+      display: flex;
+      align-items: center;
+    }
+
+    &--info {
+      text-align: left;
+      padding: 40px 75px;
+      border-left: 1px solid $l-grey;
+      border-right: 1px solid $l-grey;
+    }
+
+    &--title {
+      margin: 0 0 20px 0;
+      max-height: 50px;
+      a {
+        font-size: 22px;
+        line-height: 24px;
+        color: $black;
+      }
+    }
+    &--action {
+      min-width: 400px;
+    }
+
+    &--slider {
+      width: 350px;
+      min-width: 350px;
+      max-width: 350px;
+      padding: 30px;
+      border-bottom: 0;
+
+    }
+
+      &--ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: block;
+      }
+
+      &--li {
+        display: flex;
+        margin-bottom: 10px;
+        .name {
+          flex: 1;
+          background-image: url('../img/dots.jpg');
+          background-repeat: repeat-x;
+          background-position: 5px 12px;
+          span {
+            background-color: #fff;
+            padding-right: 10px;
+          }
+        }
+        .props {
+          margin-left: auto;
+          padding-left: 10px;
+          font-family: 'GothamPro-Bold', serif;
+        }
+      }
+  }
+}
+
+.catalog-item {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+  &:hover {
+    .catalog-item--inner {
+      transition: box-shadow 400ms ease;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
+    }
+  }
+  &--slider {
+    padding: 35px;
+    height: 280px;
+    overflow: hidden;
+    border-bottom: 1px solid $l-grey;
+  }
+  .swiper-container {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  &--inner {
+    border: 1px solid $l-grey;
+    border-radius: 5px;
+  }
+
+  &--price {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'GothamPro-Bold', serif;
+  }
+
+
+  &--action {
+    padding: 0 35px 35px 35px;
+    text-align: center;
+    .btn {
+      margin: 30px 0;
+    }
+  }
+
+
+
+  &--info {
+    padding: 35px;
+    text-align: center;
+  }
+
+  &--title {
+    margin: 0;
+    height: 90px;
+    overflow: hidden;
+    a {
+      font-size: 18px;
+      line-height: 22px;
+      color: $black;
+      font-family: 'GothamPro', serif;
+      transition: text-shadow 300ms ease-in-out;
+      &:hover {
+        text-shadow: 0 0 0.5px $black;
+      }
+    }
+  }
+
+  &--ul {
+    display: none;
+
+  }
+
+  .owl-dots {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .swiper-pagination {
+    margin-top: 20px;
+    position: static;
+  }
+  .swiper-pagination-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 1px solid $green;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $green;
+  }
+
+}
+
+
+
+.catalog-second-menu {
+  padding-bottom: 70px;
+}
+
+.square-block {
+  float: left;
+  width: 230px;
+  min-width: 230px;
+  background-color: #fff;
+  border: 1px solid #E9EAEB;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  color: $black;
+  font-family: 'GothamPro-Bold', serif;
+  margin: 15px 10px;
+  &:hover {
+    transition: box-shadow 400ms ease, color 400ms ease;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
+    color: $green;
+  }
+  &--img {
+    margin-bottom: 30px;
+    height: 115px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: scale-down;
+    }
+  }
+  &--text {
+    overflow: hidden;
+  }
+}
+
+.square-slider .swiper-slide {
+  width: auto;
+}
+
+
+
+.compare {
+  color: $green;
+}
+

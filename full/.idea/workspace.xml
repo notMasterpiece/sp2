@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09ff5f41-96b5-4228-a78c-07df7f7e591a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/academy.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/academy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/academy-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/academy/academy-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/academy-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/academy-for-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/be_the_best.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/circle-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/circle-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/circle-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/circle-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/orange-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/ppc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/question-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/reviews-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/seo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/user-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/user-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/user-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/academy/small/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/academy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/academy.scss" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.60543805">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/academy.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+                  <folding>
+                    <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#svg#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1960">
+                  <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/js/common.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="16440">
+                  <caret line="822" column="42" selection-start-line="822" selection-start-column="42" selection-end-line="822" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/scss/academy.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="19680">
+                  <caret line="984" column="20" selection-start-line="984" selection-start-column="20" selection-end-line="984" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/css/main.min.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="98460">
+                  <caret line="4923" column="11" selection-start-line="4923" selection-start-column="1" selection-end-line="4923" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.wedding-dresses__item</find>
+      <find>.wedding-dresse</find>
+      <find>wedding-dresses__item</find>
+      <find>wedding-dresses__text</find>
+      <find>wedding-dresses</find>
+      <find>.wedding__one:before</find>
+      <find>.wedding__one</find>
+      <find>.wedding h2</find>
+      <find>.wedding</find>
+      <find>maxw-1400</find>
+      <find>.polypark-block</find>
+      <find>font-family: &quot;Geometria-ExtraBold&quot;;</find>
+      <find>owl</find>
+      <find>header-slider</find>
+      <find>academy-text-p</find>
+      <find>.academy-header-slider</find>
+      <find>academy-course</find>
+      <find>.vertical-reviews</find>
+      <find>next</find>
+      <find>top-text_p</find>
+      <find>academy-social</find>
+      <find>academy-question</find>
+      <find>video-reviews</find>
+      <find>.academy-question</find>
+      <find>.vertical-reviews_slider</find>
+      <find>.academy-course</find>
+      <find>owlCarousel</find>
+      <find>.video-reviews</find>
+      <find>vh</find>
+      <find>academy-header-slider</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>nav-icon</replace>
+      <replace>data-decrement</replace>
+      <replace>gradient</replace>
+      <replace>case-fade-up</replace>
+      <replace>result-item__text</replace>
+      <replace>m-b-100</replace>
+      <replace>font-family: &quot;Geometria-ExtraBold&quot;, serif;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/case4.html" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="/private/var/folders/yj/mjryjhfj56g_9dw_mb4z0f9r0000gn/T/fz3temp-2/header.php" />
+        <option value="$PROJECT_DIR$/app/scss/sp-case-fonts.scss" />
+        <option value="$PROJECT_DIR$/app/css/sp.case.css" />
+        <option value="$PROJECT_DIR$/app/css/sp-case.css" />
+        <option value="$PROJECT_DIR$/app/case6.html" />
+        <option value="$PROJECT_DIR$/app/css/inox.css" />
+        <option value="$PROJECT_DIR$/app/case8.html" />
+        <option value="$PROJECT_DIR$/app/css/case1.min.css" />
+        <option value="$PROJECT_DIR$/app/scss/case1.scss" />
+        <option value="$PROJECT_DIR$/app/case7.html" />
+        <option value="$PROJECT_DIR$/app/css/teploback.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/libs/chart.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/app/b2b.html" />
+        <option value="$PROJECT_DIR$/app/nps.html" />
+        <option value="$PROJECT_DIR$/app/sp-tracking.html" />
+        <option value="$PROJECT_DIR$/app/scss/b2b.scss" />
+        <option value="$PROJECT_DIR$/app/css/b2b.min.css" />
+        <option value="$PROJECT_DIR$/app/css/b2b.css" />
+        <option value="$PROJECT_DIR$/app/scss/temlpate.scss" />
+        <option value="$PROJECT_DIR$/app/scss/template.scss" />
+        <option value="$PROJECT_DIR$/app/template.html" />
+        <option value="$PROJECT_DIR$/app/scss/multibox.scss" />
+        <option value="$PROJECT_DIR$/app/multibox.html" />
+        <option value="$USER_HOME$/Desktop/доступи/fason-m.com.ua/10.settings.bat" />
+        <option value="$PROJECT_DIR$/app/form.html" />
+        <option value="$PROJECT_DIR$/app/web.html" />
+        <option value="$PROJECT_DIR$/app/web_v2.html" />
+        <option value="$PROJECT_DIR$/app/scss/web_v2.scss" />
+        <option value="$PROJECT_DIR$/app/scss/main.scss" />
+        <option value="$PROJECT_DIR$/app/scss/sp-shop.scss" />
+        <option value="$PROJECT_DIR$/app/s.html" />
+        <option value="$PROJECT_DIR$/app/sp-shop.html" />
+        <option value="$PROJECT_DIR$/app/scss/polypark.scss" />
+        <option value="$PROJECT_DIR$/app/polypark.html" />
+        <option value="$PROJECT_DIR$/app/scss/diadema2.scss" />
+        <option value="$PROJECT_DIR$/app/diadema2.html" />
+        <option value="$PROJECT_DIR$/app/test.html" />
+        <option value="$PROJECT_DIR$/app/diadema.html" />
+        <option value="$PROJECT_DIR$/app/scss/_fonts.scss" />
+        <option value="$PROJECT_DIR$/app/scss/academy.scss.css" />
+        <option value="$PROJECT_DIR$/app/img/academy/long-right-white.svg" />
+        <option value="$PROJECT_DIR$/app/img/academy/long-left.svg" />
+        <option value="$PROJECT_DIR$/app/img/academy/long-left-white.svg" />
+        <option value="$PROJECT_DIR$/app/img/academy/long-right.svg" />
+        <option value="$PROJECT_DIR$/app/scss/academy.scss" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/academy.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img/academy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09ff5f41-96b5-4228-a78c-07df7f7e591a" name="Default" comment="" />
+      <created>1534227097174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534227097174</updated>
+      <workItem from="1534227100068" duration="25024000" />
+      <workItem from="1534312741403" duration="11311000" />
+      <workItem from="1534399831457" duration="12602000" />
+      <workItem from="1534835435680" duration="3146000" />
+      <workItem from="1534918161684" duration="16878000" />
+      <workItem from="1535010222277" duration="9866000" />
+      <workItem from="1535350258502" duration="18026000" />
+      <workItem from="1535462377756" duration="1196000" />
+      <workItem from="1535524494605" duration="5777000" />
+      <workItem from="1535548204467" duration="601000" />
+      <workItem from="1535609703579" duration="13699000" />
+      <workItem from="1535700647297" duration="20587000" />
+      <workItem from="1535965340596" duration="7356000" />
+      <workItem from="1536140299179" duration="8280000" />
+      <workItem from="1536823572851" duration="5412000" />
+      <workItem from="1536830078760" duration="11527000" />
+      <workItem from="1536909355353" duration="13379000" />
+      <workItem from="1537165317118" duration="797000" />
+      <workItem from="1537171629134" duration="810000" />
+      <workItem from="1537186703611" duration="719000" />
+      <workItem from="1537251419850" duration="6404000" />
+      <workItem from="1537347765987" duration="11880000" />
+      <workItem from="1537510476044" duration="14435000" />
+      <workItem from="1537770550617" duration="3600000" />
+      <workItem from="1537781958628" duration="5917000" />
+      <workItem from="1537867316894" duration="196000" />
+      <workItem from="1537868605402" duration="5534000" />
+      <workItem from="1537943208255" duration="3392000" />
+      <workItem from="1537960080082" duration="2685000" />
+      <workItem from="1538034970624" duration="460000" />
+      <workItem from="1538037766430" duration="1144000" />
+      <workItem from="1538116386588" duration="1268000" />
+      <workItem from="1538119129167" duration="2262000" />
+      <workItem from="1538143671327" duration="203000" />
+      <workItem from="1538376402443" duration="4685000" />
+      <workItem from="1538383684014" duration="1716000" />
+      <workItem from="1539327131772" duration="1601000" />
+      <workItem from="1542723890582" duration="4592000" />
+      <workItem from="1542784080982" duration="3222000" />
+      <workItem from="1542959223463" duration="141000" />
+      <workItem from="1542981068867" duration="6255000" />
+      <workItem from="1543216354149" duration="6401000" />
+      <workItem from="1543309577224" duration="7127000" />
+      <workItem from="1543586717398" duration="4490000" />
+      <workItem from="1543822905612" duration="753000" />
+      <workItem from="1543913157718" duration="15076000" />
+      <workItem from="1544012032392" duration="4769000" />
+      <workItem from="1544081030597" duration="592000" />
+      <workItem from="1544083502847" duration="17000" />
+      <workItem from="1544166444817" duration="5503000" />
+      <workItem from="1544433539492" duration="1694000" />
+      <workItem from="1545292615696" duration="5356000" />
+      <workItem from="1545904769089" duration="1465000" />
+      <workItem from="1545999098494" duration="4228000" />
+      <workItem from="1546068859186" duration="2232000" />
+      <workItem from="1546434835207" duration="6787000" />
+      <workItem from="1546607673477" duration="7041000" />
+      <workItem from="1546935100087" duration="14360000" />
+      <workItem from="1547021964865" duration="10918000" />
+      <workItem from="1547104673471" duration="804000" />
+      <workItem from="1547629957912" duration="58000" />
+      <workItem from="1547632745590" duration="9098000" />
+      <workItem from="1547710520522" duration="3500000" />
+      <workItem from="1548853146511" duration="6675000" />
+      <workItem from="1548919533324" duration="6021000" />
+      <workItem from="1548940513489" duration="5321000" />
+      <workItem from="1549006230164" duration="11893000" />
+      <workItem from="1549266018577" duration="4204000" />
+      <workItem from="1549618368198" duration="5950000" />
+      <workItem from="1549891351252" duration="2665000" />
+      <workItem from="1550129190469" duration="10130000" />
+      <workItem from="1550240549556" duration="745000" />
+      <workItem from="1550665903176" duration="547000" />
+      <workItem from="1552395697252" duration="520000" />
+      <workItem from="1552467298830" duration="7398000" />
+      <workItem from="1552565540321" duration="4423000" />
+      <workItem from="1553066428255" duration="11934000" />
+      <workItem from="1553165893787" duration="7441000" />
+      <workItem from="1553239648861" duration="7221000" />
+      <workItem from="1553500674507" duration="11419000" />
+      <workItem from="1553585223044" duration="12066000" />
+      <workItem from="1553670884433" duration="1287000" />
+      <workItem from="1553700881745" duration="214000" />
+      <workItem from="1553846720925" duration="2475000" />
+      <workItem from="1554272995941" duration="1393000" />
+      <workItem from="1554283543838" duration="2203000" />
+      <workItem from="1554359041804" duration="729000" />
+      <workItem from="1555677665372" duration="1971000" />
+      <workItem from="1555680199901" duration="724000" />
+      <workItem from="1564037061717" duration="19741000" />
+      <workItem from="1564122804549" duration="15551000" />
+      <workItem from="1565682867804" duration="291000" />
+      <workItem from="1570094951550" duration="954000" />
+      <workItem from="1570172108786" duration="487000" />
+      <workItem from="1570428474036" duration="362000" />
+      <workItem from="1570515844404" duration="10000" />
+      <workItem from="1570607030906" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="563630000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12848867" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3029703" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/scss/seo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/solutions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/sp-case-fonts.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/multibox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/case2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blog.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/case1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/case8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/web_v2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/web_v2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crm.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/nps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="15" column="51" selection-end-line="355" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/case3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/case7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="13" selection-end-line="174" />
+          <folding>
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1547721333711" expanded="true" signature="3079:4015" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/diadema2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/s.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/доступи/ws-shop/10.settings.bat" />
+    <entry file="file://$PROJECT_DIR$/app/scss/sp-case-fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/range-slider-master 2/css/rSlider.min.css" />
+    <entry file="file://$USER_HOME$/Downloads/range-slider-master/css/rSlider.min.css" />
+    <entry file="file://$USER_HOME$/Downloads/range-slider-master/js/rSlider.min.js" />
+    <entry file="file://$PROJECT_DIR$/app/css/sp-shop.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/sp-shop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sp-shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="147" column="76" selection-start-line="147" selection-start-column="76" selection-end-line="147" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/diadema2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9940">
+          <caret line="497" column="24" selection-start-line="497" selection-start-column="24" selection-end-line="497" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/polypark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/diadema.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/polypark.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="197" column="22" selection-start-line="197" selection-start-column="22" selection-end-line="197" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test.html" />
+    <entry file="file://$PROJECT_DIR$/app/web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="835" selection-start-line="835" selection-end-line="835" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/diadema2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="483" column="12" selection-start-line="483" selection-start-column="12" selection-end-line="499" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#2;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#span#0;n#div#2;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/slick-1.8.1/slick/slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="98" column="18" lean-forward="true" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/long-left.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/long-left-white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/long-right-white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/long-right.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/silver.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/orange-arrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/ppc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sp-tracking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="258" selection-start-line="258" selection-end-line="258" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/web_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="31" selection-start-line="31" selection-end-line="167" selection-end-column="9" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/academy/small-academy-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/academy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16440">
+          <caret line="822" column="42" selection-start-line="822" selection-start-column="42" selection-end-line="822" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/academy.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19680">
+          <caret line="984" column="20" selection-start-line="984" selection-start-column="20" selection-end-line="984" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98460">
+          <caret line="4923" column="11" selection-start-line="4923" selection-start-column="1" selection-end-line="4923" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

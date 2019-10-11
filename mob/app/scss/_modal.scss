@@ -1,0 +1,28 @@
+.sp-modal {
+  font-size: 14px;
+  line-height: 20px;
+  &--body {
+    border-top: 1px solid #E9EAEB;
+    border-bottom: 1px solid #E9EAEB;
+    padding: 30px 0;
+    text-align: left;
+    margin: 30px 0;
+  }
+  &--title {
+    font-family: 'HeliosCond', serif;
+    font-size: 34px;
+    line-height: 40px;
+    margin: 0 30px 0 0;
+  }
+  .header-middle--phone {
+    text-align: left;
+  }
+  .header-middle--phone a {
+    margin-top: 10px;
+    display: block;
+    font-family: 'GothamPro-Bold', serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #101112;
+  }
+}

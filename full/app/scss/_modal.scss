@@ -1,0 +1,78 @@
+@import "_vars";
+
+
+.sp-modal {
+  &--body {
+    border-top: 1px solid #E9EAEB;
+    border-bottom: 1px solid #E9EAEB;
+    padding: 30px 0;
+    text-align: left;
+    margin: 30px 0;
+  }
+  &--title {
+    font-family: 'HeliosCond', serif;
+    font-size: 34px;
+    line-height: 40px;
+    margin: 0 30px 0 0;
+  }
+  .header-middle--phone {
+    text-align: left;
+  }
+}
+
+
+
+.city-modal {
+  width: 800px;
+  max-width: 100%;
+  h2 {
+    font-family: 'GothamPro-Bold', serif;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 30px 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  a {
+    color: #3C3C3B;
+    margin-right: 30px;
+    line-height: 14px;
+  }
+  .active {
+    font-family: 'GothamPro-Bold', serif;
+    color: $green;
+    border-bottom: 1px solid $green;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+
+  &--header {
+    border-bottom: 1px solid #E9EAEB;
+    padding-bottom: 20px;
+    li {
+      display: inline-block;
+    }
+  }
+
+  &--body {
+    padding: 30px 0;
+    border-bottom: 1px solid #E9EAEB;
+  }
+
+  &--ul {
+    width: 33%;
+    float: left;
+    li {
+      margin-bottom: 8px;
+    }
+    h2 {
+      margin: 20px 0;
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+.pagination {
+  padding-top: 30px;
+  text-align: center;
+  a[disabled] {
+    padding: 9px 10px;
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      cursor: default;
+    }
+  }
+  a:not([disabled]) {
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #E9EAEB;
+    padding: 9px 17px;
+    margin: 0 3px;
+    color: #000000;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      text-decoration: none;
+      background-color: #006843;
+      color: #fff;
+      border-color: #006843;
+    }
+    &.active {
+      background-color: #006843;
+      color: #fff;
+      border-color: #006843;
+    }
+  }
+}

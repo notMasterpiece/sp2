@@ -1,0 +1,216 @@
+
+/*==========  Desktop First Method  ==========*/
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1500px) {
+    .catalog-list--row .catalog-item--info {
+      padding: 20px;
+    }
+    .catalog-list--row .catalog-item--slider {
+      padding: 15px;
+    }
+    .catalog-list--row .catalog-item--action {
+      padding: 30px;
+      min-width: initial;
+    }
+  }
+
+
+  @media only screen and (max-width : 1300px) {
+
+  }
+
+
+  @media only screen and (max-width : 1200px) {
+    .header-top--region {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+    .header-top--login {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
+    .header-top--right,
+    .header-top--office {
+      max-width: 50%;
+      padding-top: 25px;
+    }
+    .flex-start,
+    .flex-row {
+      flex-wrap: wrap;
+    }
+    .col-lg-5 {
+      width: 100%;
+    }
+    .header-middle--phone {
+      margin: 0 25px;
+    }
+    .header-menu--ul > li > a {
+      padding: 20px 10px;
+    }
+    .footer {
+      padding: 50px 0;
+    }
+    .sp-about--bottom {
+      position: static;
+      padding: 10px 0;
+    }
+    .sp-object--item {
+      max-width: 500px;
+      width: 500px;
+      min-width: 500px;
+    }
+    #ya-map {
+      position: static;
+      width: 100%;
+      height: 400px;
+    }
+    .catalog-info--img {
+      position: static;
+      transform: translateY(0);
+      margin: 20px auto;
+      max-width: 100%;
+    }
+    .catalog-info {
+      padding: 50px 0;
+    }
+  }
+  /**/
+
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 1024px) {
+    .header-menu--ul > li > a {
+      font-size: 10px;
+      padding: 20px 4px;
+    }
+    .header-menu .second-level > li:hover .third-level,
+    .header-menu .second-level {
+      width: 360px;
+    }
+    .catalog-item--info,
+    .catalog-item--slider {
+      padding: 15px;
+    }
+    .catalog-item--action {
+      padding: 0 15px 15px 15px;
+    }
+    .catalog-item--title{
+      height: 65px;
+    }
+    .catalog-list--row .catalog-item--title a,
+    .catalog-item--title a {
+      font-size: 14px;
+      line-height: 16px;
+    }
+      .catalog-item--price {
+      font-size: 18px;
+    }
+    .catalog-item--action .btn {
+      margin: 10px 0;
+    }
+    .catalog-item--slider {
+      height: auto;
+    }
+    .catalog-list--row .catalog-item--inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .catalog-list--row .catalog-item .swiper-container {
+      max-width: 235px;
+      max-height: 235px;
+    }
+    .catalog-list--row .catalog-item--info {
+      border: 0;
+      width: 100%;
+    }
+  }
+  /**/
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+
+  }
+
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+
+  }
+  /**/
+
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width : 359px) {
+
+  }
+  /**/
+
+
+  /*==========  Mobile First Method  ==========*/
+
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width : 320px) {
+
+  }
+  /**/
+
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px) {
+
+  }
+  /**/
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+
+  }
+  /**/
+
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+
+  }
+  /**/
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+    .header-middle {
+      .logo {
+        min-width: 300px;
+      }
+    }
+
+    .header-middle--phone {
+      margin-right: 80px;
+    }
+    .home-catalog-list {
+      margin: 0 -14px;
+    }
+  }
+
+  @media only screen and (min-width : 1300px) {
+    .catalog-item--action .btn {
+      min-width: 280px;
+    }
+  }
+
+
+  @media only screen and (min-width : 1430px) {
+
+  }
+
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1630px) {
+}
+/**/

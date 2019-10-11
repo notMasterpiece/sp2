@@ -1,0 +1,168 @@
+
+/*==========  Desktop First Method  ==========*/
+
+
+          /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1500px) {
+
+  }
+
+
+  @media only screen and (max-width : 1300px) {
+
+  }
+
+
+  @media only screen and (max-width : 1200px) {
+
+}
+  /**/
+
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+
+
+  }
+  /**/
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+
+  }
+
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+
+  }
+  /**/
+
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width : 359px) {
+
+  }
+  /**/
+
+
+  /*==========  Mobile First Method  ==========*/
+
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width : 320px) {
+
+  }
+  /**/
+
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px) {
+
+  }
+  /**/
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+
+  }
+  /**/
+
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+
+  }
+  /**/
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+    .container {
+      width: 1120px;
+    }
+  }
+
+  @media only screen and (min-width : 1300px) {
+    .container {
+      width: 1270px;
+    }
+  }
+
+
+  @media only screen and (min-width : 1430px) {
+    .container {
+      width: 1400px;
+    }
+    .competencies-list:before {
+      font-size: 11vw;
+      line-height: 14vw;
+    }
+    .competencies-item--count {
+      left: -55px;
+      top: 60px;
+      width: 150px;
+      font-size: 25px;
+    }
+    .competencies-item {
+      h3 {
+        font-size: 3.6vw;
+      }
+    }
+    .decision-after:after,
+    .decision-after:before {
+      font-size: 8vw;
+      line-height: 13vw;
+    }
+    .reviews-text:before,
+    .reviews-text:after,
+    .portfolio:before {
+      font-size: 12vw;
+      line-height: 14vw;
+    }
+    .brand-item {
+      width: 20%;
+      padding-top: 100px;
+    }
+  }
+
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1630px) {
+
+    .container {
+      width: 1600px;
+    }
+    .competencies {
+      padding-top: 100px;
+      padding-bottom: 150px;
+    }
+    .competencies-item {
+      width: 450px;
+      h3 {
+        font-size: 43px;
+        margin: 0;
+      }
+    }
+    .reviews-text:before,
+    .reviews-text:after,
+    .competencies-list:before {
+      font-size: 11vw;
+      line-height: 14vw;
+    }
+    .competencies-item--count {
+      left: -55px;
+      top: 60px;
+      width: 150px;
+      font-size: 25px;
+    }
+    .competencies-item {
+      h3 {
+        font-size: 3.6vw;
+      }
+    }
+
+}
+/**/
