@@ -67,6 +67,7 @@
   &--item {
     margin: 20px 20px 20px 0;
     display: inline-block;
+    vertical-align: top;
   }
 
   &--label {
@@ -80,7 +81,8 @@
   border: 0;
   background-color: transparent;
   padding: 0;
-  margin: 0px 20px 20px 0;
+  margin: 0 20px 30px 0;
+  vertical-align: bottom;
   span {
     border-bottom: 1px dashed $green;
     display: inline-block;
@@ -337,8 +339,14 @@
   }
 }
 
+.sp-object--slider .swiper-slide,
 .square-slider .swiper-slide {
   width: auto;
+}
+
+.sp-object--slider .swiper-slide {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
 }
 
 
@@ -346,4 +354,7 @@
 .compare {
   color: $green;
 }
+
+
+
 

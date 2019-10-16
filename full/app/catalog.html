@@ -43,7 +43,7 @@
                         <span class="grey">Ближайший диллер:</span>
                         <a href=""><img src="img/icons/marker.svg" alt=""> г.Смоленск</a>
                     </div>
-                    <a href="" class="header-top--login">
+                    <a href="ajax/login.html" class="header-top--login js-ajax">
                         <img src="img/icons/login-orange.svg" alt="">
                         <span>Войти</span>
                     </a>
@@ -271,9 +271,9 @@
 <div class="breadcrumbs-wrap">
     <div class="container">
         <ul class="breadcrumbs">
-            <li><a href="#">Главная  ></a></li>
-            <li><a href="#">Каталог продукции  ></a></li>
-            <li><a href="#">Поверхностный водоотвод  ></a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Каталог продукции</a></li>
+            <li><a href="#">Поверхностный водоотвод</a></li>
             <li>Линейный водоотвод. Серии S'park иBasic (стандартные)</li>
         </ul>
     </div>
@@ -323,17 +323,24 @@
 
 <div class="sp-tabs">
     <div class="container">
-        <ul class="tabs__caption">
-            <li class="active">Продукция линейного водоотвода</li>
-            <li>Подробнее о линейном водоотводе</li>
-            <li>Фото объектов</li>
-        </ul>
+        <div class="tabs__caption swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="active tabs__li">Продукция линейного водоотвода</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class=" tabs__li">Подробнее о линейном водоотводе</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tabs__li">Фото объектов</div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="tabs__content active">
         <div class="catalog-second-menu">
             <div class="container">
-                <div class="">
                     <div class="square-slider swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -403,7 +410,6 @@
                         </div>
                         <!-- Add Pagination -->
                         <!--<div class="swiper-pagination"></div>-->
-                    </div>
                 </div>
             </div>
         </div>
@@ -1003,7 +1009,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="footer_title">О компании</h3>
+                        <h3 class="footer_title"><a href="">О компании</a></h3>
                         <ul class="footer_ul m-b-40">
                             <li><a href="">О компании</a></li>
                             <li><a href="">Новости</a></li>

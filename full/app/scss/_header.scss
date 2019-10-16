@@ -1,5 +1,9 @@
 @import '_vars';
 
+.header {
+  min-height: auto;
+}
+
 .header-top {
   display: flex;
   align-items: center;
@@ -81,7 +85,7 @@
   overflow: hidden;
   -webkit-background-size: cover;
   background-size: cover;
-  padding: 12% 0;
+  padding: 9% 0;
   color: #fff;
   margin-top: -58px;
   background-color: transparent;
@@ -215,7 +219,7 @@
   top: 12%;
   left: 0;
   bottom: 12%;
-  width: 60%;
+  width: 53%;
 }
 
 
@@ -299,13 +303,14 @@
   justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 70px;
 
 }
 
 .sp-object--item {
   color: $black;
-  flex: 0 0 33.3333333333%;
-  max-width: 33.3333333333%;
+  //flex: 0 0 33.3333333333%;
+  //max-width: 33.3333333333%;
   position: relative;
   padding-right: 15px;
   padding-left: 15px;

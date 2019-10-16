@@ -14,7 +14,11 @@
   vertical-align: middle;
   //display: flex;
   //align-items: center;
-  li {
+  .swiper-slide {
+    width: auto;
+  }
+  .tabs__li {
+    width: auto;
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
@@ -23,11 +27,8 @@
     padding: 40px 0;
     margin-right: 80px;
     color: $grey;
-    &:last-child {
-      margin-right: 0;
-    }
   }
-  li.active {
+  .active {
     color: $black;
     text-shadow: 0 0 0.5px $black;
     &::after {
@@ -36,7 +37,7 @@
       position: absolute;
       left: 0;
       right: -40px;
-      top: 100%;
+      top: 99%;
       height: 1px;
       background-color: $green;
     }

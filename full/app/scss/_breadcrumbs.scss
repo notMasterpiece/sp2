@@ -18,10 +18,18 @@
     &:hover {
       border-bottom: none;
     }
+
   }
   li {
     display: inline-block;
     color: $grey;
-    margin-right: 15px;
+    &:not(:last-child) {
+      &:after {
+        content: '>';
+        display: inline-block;
+        margin: 0 10px;
+        color: #101112;
+      }
+    }
   }
 }

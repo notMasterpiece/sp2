@@ -1,6 +1,7 @@
 @import '_vars';
 
 .footer {
+  min-height: auto;
   background-color: $green;
   color: $white;
   padding: 100px 0;
@@ -13,14 +14,18 @@
     a {
       display: block;
       color: $white;
-      font-family: 'GothamPro';
+      font-family: 'GothamPro', serif;
       font-size: 16px;
-      line-height: 30px
+      line-height: 20px;
+      padding: 5px 0;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   &_title {
     font-weight: normal;
-    font-family: 'HeliosCond';
+    font-family: 'GothamPro-Bold', serif;
     font-size: 20px;
     line-height: 24px;
     margin: 0 0 18px 0;

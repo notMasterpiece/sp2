@@ -13,14 +13,14 @@
     border: 1px solid #006843;
     box-shadow: 0 0 2px rgba(89, 86, 86, 0.5);
     border-radius: 3px;
-    padding: 10px 60px 10px 10px;
+    padding: 7px 60px 7px 10px;
     &:focus {
       outline: none;
     }
   }
   &--close {
     position: absolute;
-    top: 10px;
+    top: 7px;
     right: 36px;
     border: 0;
     background-color: transparent;
@@ -79,7 +79,6 @@
   }
   &--result-text {
     padding: 20px;
-    font-family: 'GothamPro-Bold', serif;
     line-height: 14px;
   }
 

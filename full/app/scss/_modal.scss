@@ -39,12 +39,16 @@
   a {
     color: #3C3C3B;
     margin-right: 30px;
-    line-height: 14px;
+    line-height: 16px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .active {
     font-family: 'GothamPro-Bold', serif;
     color: $green;
     border-bottom: 1px solid $green;
+    &:focus,
     &:hover {
       text-decoration: none;
     }
@@ -76,3 +80,41 @@
   }
 }
 
+
+.login-form {
+  margin-top: 40px;
+  width: 600px;
+  label {
+    margin-bottom: 20px;
+    display: block;
+  }
+  &--label {
+    color: #101112;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  &--forgot {
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: #3C3C3B;
+  }
+  .green {
+    margin-left: 30px;
+    line-height: 16px;
+  }
+}
+
+input[type='text'],
+input[type='password'] {
+  border: 1px solid #E9EAEB;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 13px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 10px;
+  &:focus {
+    border-color: #000;
+    outline: none;
+  }
+}

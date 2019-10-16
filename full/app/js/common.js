@@ -6,9 +6,6 @@ $(function () {
 
     Onload();
 
-    $('section.js-scroll').height(windowHeight);
-
-
     var catalogImg = $('.catalog-info').data('img');
     if (catalogImg) {
         $('.catalog-info').append('<img class="catalog-info--img" src="'+ catalogImg +'" />')
@@ -38,6 +35,18 @@ $(function () {
 
 
 
+
+    var swiper4 = new Swiper('.sp-object--slider', {
+        slidesPerView: 3,
+        // freeMode: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+
+
     // Onload
     function Onload() {
 
@@ -45,7 +54,6 @@ $(function () {
         initTabs();
         ajaxFancybox();
         initFullpage();
-        catalogSlider();
         catalogMenu();
         initChosen();
         initSearch();
@@ -53,35 +61,14 @@ $(function () {
     }
 
     function initChosen() {
+        if (!$('.sp-select')) return;
+
         $(".sp-select").chosen({
             placeholder_text_single: "Select an option",
             no_results_text: "Oops, nothing found!",
             disable_search_threshold: 10
         });
     }
-
-
-    function catalogSlider() {
-        // $('.catalog-item--slider').owlCarousel({
-        //     items: 1,
-        //     loop: true,
-        //     nav:false,
-        //     autoplay:true,
-        //     autoplayTimeout: 10000,
-        //     autoplaySpeed: 800,
-        //     dots: true,
-        // })
-    }
-
-    // function sixItemsSliders() {
-    //     $('.square-slider').owlCarousel({
-    //         items: 6,
-    //         loop: false,
-    //         nav:false,
-    //         dots: false,
-    //         margin: 20
-    //     })
-    // }
 
 
     function initSearch() {
@@ -126,14 +113,20 @@ $(function () {
 
 
     function initFullpage() {
+
        $('section.js-scroll').each(function () {
             if ($(this).outerHeight() < windowHeight) {
                 $(this).height(windowHeight);
             }
        });
 
+
+
         if (window.location.pathname === '/') {
-            $('.js-scroll').scrollSections();
+            console.log($(window).outerWidth());
+            if ( $(window).outerWidth() > 1350 ) {
+                $('.js-scroll').scrollSections();
+            }
         }
 
     }
@@ -166,10 +159,24 @@ $(function () {
     }
 
     function initTabs() {
-        $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+
+        var swiper3 = new Swiper('.tabs__caption', {
+            slidesPerView: 'auto',
+            freeMode: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+
+
+        $('.tabs__caption').on('click', '.tabs__li:not(.active)', function() {
             $(this)
-                .addClass('active').siblings().removeClass('active')
-                .closest('div.sp-tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+                .closest('.sp-tabs').find('.tabs__li').removeClass('active')
+                .closest('div.sp-tabs').find('div.tabs__content').removeClass('active').eq($(this).closest('.swiper-slide').index()).addClass('active');
+            $(this)
+                .addClass('active')
         });
     }
 
@@ -192,147 +199,218 @@ $(function () {
     }
 
 
+    ymaps.ready(['projection.LambertConformalConic']).then(function init() {
+
+        // Создаем проекцию Ламберта.
+        var LAMBERT_PROJECTION = new ymaps.projection.LambertConformalConic();
+
+        // Создаем карту.
+        var map = new ymaps.Map('ya-map', {
+            center: [65, 100],
+            zoom: 3,
+            type: null,
+            controls: ['zoomControl']
+        }, {
+            minZoom: 1,
+            // Задаем проекцию Ламберта.
+            projection: LAMBERT_PROJECTION
+        });
+        map.controls.get('zoomControl').options.set({size: 'small'});
+
+        // Добавляем фон.
+        var pane = new ymaps.pane.StaticPane(map, {
+            zIndex: 100, css: {
+                width: '100%', height: '100%', backgroundColor: '#F5F3F3'
+            }
+        });
+        map.panes.append('greyBackground', pane);
+
+        // Загружаем и добавляем регионы России на карту.
+        ymaps.borders.load('RU', {
+            lang: 'ru'
+        }).then(function (result) {
+            regions = new ymaps.GeoObjectCollection(null, {
+                fillColor: '#e5dac6',
+                strokeColor: '#e5dac6',
+                hasHint: false,
+                cursor: 'default'
+            });
+            for (var i = 0; i < result.features.length; i++) {
+                regions.add(new ymaps.GeoObject(result.features[i]));
+            }
+
+            map.geoObjects.add(regions);
+        });
 
 
-    // Группы объектов
-    var groups = [
-        {
-            name: "Известные памятники",
-            style: "islands#redIcon",
-            items: [
-                {
-                    center: [55.755814, 37.617635],
-                    name: "Москва",
-                    descr: "это просто описание"
-                },
-                {
-                    center: [59.939095, 30.315868],
-                    name: "Санк-Петербург"
-                },
-                {
-                    center: [55.798551, 49.106324],
-                    name: "Казань"
-                },
-                {
-                    center: [45.035566, 38.974711],
-                    name: "Краснодар"
-                },
-                {
-                    center: [54.707390, 20.507307],
-                    name: "Калининград"
-                },
-                {
-                    center: [43.115536, 131.885485],
-                    name: "Владивосток"
-                },
-                {
-                    center: [51.661535, 39.200287],
-                    name: "Воронеж"
-                },
-                {
-                    center: [62.028103, 129.732663],
-                    name: "Якутск"
-                },
-                {
-                    center: [51.768199, 55.096955],
-                    name: "Оренбург"
-                },
-                {
-                    center: [53.243325, 34.363731],
-                    name: "Брянск"
-                },
-                {
-                    center: [56.852593, 53.204843],
-                    name: "Ижевск"
-                },
-                {
-                    center: [53.195538, 50.101783],
-                    name: "Самара"
-                },
-            ]},
-    ];
 
+        var places = [
+            {
+                'lat':'55.72218176576286',
+                'lng':'37.58569467028812',
+                'dealer':true,
+                'title':'г. Балашиха, ул. Советская, д. 56, первый этаж',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_balashiha_pr_lenina_d_10a.html">г. Балашиха, ул. Советская, д. 56, первый этаж</a></h4><p>Тел.: <b class="format-phone" data-phone="74956658050">74956658050</b><br/><b class="format-phone" data-phone="79250046777">79250046777</b></p><p>Эл. почта: <a href="mailto: s.kalugin@cdek.ru "> s.kalugin@cdek.ru </a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00</p>'
+            },
+            {
+                'lat':'54.660232238738836',
+                'lng':'56.21095406970218',
+                'title':'г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_vidnoe_ul_donbasskaya_d_2.html">г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;</a></h4><p>Тел.: <b class="format-phone" data-phone="79160705658">79160705658</b></p><p>Эл. почта: <a href="mailto:a.lundin@cdek.ru">a.lundin@cdek.ru</a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00<br />\r\nВс – выходной день </p>'
+            },
+            {
+                'lat':'67.51927129018448',
+                'lng':'63.99305093249515',
+                'dealer':true,
+                'title':'г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_vidnoe_ul_donbasskaya_d_2.html">г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;</a></h4><p>Тел.: <b class="format-phone" data-phone="79160705658">79160705658</b></p><p>Эл. почта: <a href="mailto:a.lundin@cdek.ru">a.lundin@cdek.ru</a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00<br />\r\nВс – выходной день </p>'
+            },
+            {
+                'lat':'62.07873518307209',
+                'lng':'129.94775521716312',
+                'title':'г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_vidnoe_ul_donbasskaya_d_2.html">г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;</a></h4><p>Тел.: <b class="format-phone" data-phone="79160705658">79160705658</b></p><p>Эл. почта: <a href="mailto:a.lundin@cdek.ru">a.lundin@cdek.ru</a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00<br />\r\nВс – выходной день </p>'
+            },
+            {
+                'lat':'54.660232238738836',
+                'lng':'56.21095406970218',
+                'title':'г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_vidnoe_ul_donbasskaya_d_2.html">г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;</a></h4><p>Тел.: <b class="format-phone" data-phone="79160705658">79160705658</b></p><p>Эл. почта: <a href="mailto:a.lundin@cdek.ru">a.lundin@cdek.ru</a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00<br />\r\nВс – выходной день </p>'
+            },
+            {
+                'lat':'57.951759839898955',
+                'lng':'102.69925820788578',
+                'dealer':true,
+                'title':'г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_vidnoe_ul_donbasskaya_d_2.html">г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;</a></h4><p>Тел.: <b class="format-phone" data-phone="79160705658">79160705658</b></p><p>Эл. почта: <a href="mailto:a.lundin@cdek.ru">a.lundin@cdek.ru</a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00<br />\r\nВс – выходной день </p>'
+            },
+            {
+                'lat':'66.6121957616279',
+                'lng':'102.22203957995609',
+                'title':'г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;',
+                'content':'<h4 style="margin-right:20px;"><a href="/contacts/g_vidnoe_ul_donbasskaya_d_2.html">г. Видное, ул. Донбасская д. 2, оф. 3, БЦ &quot;ЮГ&quot;</a></h4><p>Тел.: <b class="format-phone" data-phone="79160705658">79160705658</b></p><p>Эл. почта: <a href="mailto:a.lundin@cdek.ru">a.lundin@cdek.ru</a></p><p>Режим работы:<br />Пн-Пт – с 10:00 до 19:00<br />\r\nСб – с 10:00 до 16:00<br />\r\nВс – выходной день </p>'
+            },
+        ];
 
-    ymaps.ready(init);
+        if (places.length > 0) {
+            for (var i = 0; i < places.length; i++) {
+                myPlacemark = new ymaps.Placemark([places[i].lat, places[i].lng], {
+                    hintContent: places[i].title,
+                    balloonContent: places[i].content
+                }, {
+                    // Опции.
+                    // Необходимо указать данный тип макета.
+                    iconLayout: 'default#image',
+                    // Своё изображение иконки метки.
+                    iconImageHref: places[i].dealer ? 'img/icons/orange-mark.svg' : 'img/icons/green-mark.svg',
+                    // Размеры метки.
+                    iconImageSize: [30, 42],
+                    // Смещение левого верхнего угла иконки относительно
+                    // её "ножки" (точки привязки).
+                    iconImageOffset: [-5, -38]
 
-    function init() {
-
-        if (!$('.ya-map').length) return;
-
-        // Создание экземпляра карты.
-        var myMap = new ymaps.Map('ya-map', {
-                center: [50.443705, 30.530946],
-                zoom: 30,
-                controls: ['smallMapDefaultSet'],
-            }, {
-                searchControlProvider: 'yandex#search'
-            }),
-            // Контейнер для меню.
-            menu = $('<ul></ul>');
-
-        for (var i = 0, l = groups.length; i < l; i++) {
-            createMenuGroup(groups[i]);
-        }
-
-        function createMenuGroup (group) {
-            // Пункт меню.
-            var menuItem = $('<a href="#">' + group.name + '</a>'),
-                // Коллекция для геообъектов группы.
-                collection = new ymaps.GeoObjectCollection(null, { preset: group.style }),
-                // Контейнер для подменю.
-                submenu = $('<ul class="submenu"></ul>');
-
-            // Добавляем коллекцию на карту.
-            myMap.geoObjects.add(collection);
-            // Добавляем подменю.
-            menuItem
-                .append(submenu)
-                // Добавляем пункт в меню.
-                .appendTo(menu)
-                // По клику удаляем/добавляем коллекцию на карту и скрываем/отображаем подменю.
-                .find('a')
-                .bind('click', function () {
-                    if (collection.getParent()) {
-                        myMap.geoObjects.remove(collection);
-                        submenu.hide();
-                    } else {
-                        myMap.geoObjects.add(collection);
-                        submenu.show();
-                    }
                 });
-            for (var j = 0, m = group.items.length; j < m; j++) {
-                createSubMenu(group.items[j], collection, submenu);
+                map.geoObjects.add(myPlacemark);
             }
         }
 
-        function createSubMenu (item, collection, submenu) {
-            // Пункт подменю.
-            var submenuItem = $('<li><a href="#">' + item.name + item.descr + '</a></li>'),
-                // Создаем метку.
-                placemark = new ymaps.Placemark(item.center, { balloonContent: item.name });
 
-            // Добавляем метку в коллекцию.
-            collection.add(placemark);
-            // Добавляем пункт в подменю.
-            submenuItem
-                .appendTo(submenu)
-                // При клике по пункту подменю открываем/закрываем баллун у метки.
-                .find('a')
-                .bind('click', function () {
-                    if (!placemark.balloon.isOpen()) {
-                        placemark.balloon.open();
-                    } else {
-                        placemark.balloon.close();
-                    }
-                    return false;
-                });
+    });
+
+
+
+    ymaps.modules.define('projection.LambertConformalConic', [
+        'util.defineClass',
+        'util.math.cycleRestrict',
+        'coordSystem.geo',
+        'meta'
+    ], function (provide, defineClass, cycleRestrict, CoordSystemGeo, meta) {
+        /**
+         * @fileOverview
+         * Равноугольная коническая проекция Ламберта.
+         */
+
+        var latLongOrder = meta.coordinatesOrder != 'longlat';
+
+        /**
+         * Создает равноугольную коническую проекцию Ламберта.
+         *
+         * @name projection.LambertConformalConic
+         * @class Равноугольная коническая проекция Ламберта.
+         * Учитывает параметр coordorder, заданный при подключении API.
+         * @augments IProjection
+         */
+        function LambertConformalConic() {
+            if (ymaps.meta.debug) {
+                if (!center[0] || !center[1]) {
+                    throw new Error("projection.LambertConformalConic: Некорректные значения параметра center.");
+                }
+            }
+
+            this._degToRad = function (point) {
+                return point * Math.PI / 180;
+            };
+
+            // Широта и долгота точки, которая служит началом координат в декартовой системе проекции.
+            this._fi0 = this._degToRad(0);
+            this._l0 = this._degToRad(-2);
+
+            // Стандартные параллели.
+            this._fi1 = this._degToRad(70);
+            this._fi2 = this._degToRad(40);
         }
 
-        // Добавляем меню в тэг BODY.
-        // menu.appendTo($('body'));
-        // Выставляем масштаб карты чтобы были видны все группы.
-        myMap.setBounds(myMap.geoObjects.getBounds());
-    }
+        defineClass(LambertConformalConic, {
+            toGlobalPixels: function (point, zoom) {
+                if (ymaps.meta.debug) {
+                    if (!point) {
+                        throw new Error("LambertConformalConic.toGlobalPixels: не передан параметр point");
+                    }
+                    if (typeof zoom == "undefined") {
+                        throw new Error("LambertConformalConic.toGlobalPixels: не передан параметр zoom");
+                    }
+                }
+
+                // Широта и долгота точки на поверхности Земли.
+                var fi = this._degToRad(point[latLongOrder ? 0 : 1]);
+                var l = this._degToRad(point[latLongOrder ? 1 : 0]);
+
+                var n = (Math.log(Math.cos(this._fi1) / Math.cos(this._fi2))) / (Math.log(Math.tan(0.25 * Math.PI + 0.5 * this._fi2) / Math.tan(0.25 * Math.PI + 0.5 * this._fi1)));
+                var F = (Math.cos(this._fi1) * Math.pow(Math.tan(0.25 * Math.PI + 0.5 * this._fi1), n)) / (n);
+                var p = F * Math.pow(1 / Math.tan(0.25 * Math.PI + 0.5 * fi), n);
+                var p0 = F * Math.pow(1 / Math.tan(0.25 * Math.PI + 0.5 * this._fi0), n);
+
+                // Декартовы координаты той же точки на проекции.
+                var x = p0 - p * Math.cos(n * (l - this._l0));
+                var y = p * Math.sin(n * (l - this._l0));
+
+                x = x * 128 * Math.pow(2, zoom);
+                y = y * 128 * Math.pow(2, zoom);
+
+                return [x, y];
+            },
+            // Если вам нужно переводить глобальные пиксельные координаты в широту и долготу, необходимо реализовать
+            // метод fromGlobalPixels. Это может понадобиться, например, если вы захотите воспользоваться линейкой.
+            fromGlobalPixels: function (point, zoom) {
+                if (ymaps.meta.debug) {
+                    console.log('projection.LambertConformalConic#fromGlobalPixels не имплементировано');
+                }
+                return [0, 0];
+            },
+
+            isCycled: function () {
+                return [false, false];
+            },
+
+            getCoordSystem: function () {
+                return CoordSystemGeo;
+            }
+        });
+
+        provide(LambertConformalConic);
+    });
+
+
 
 
 });
