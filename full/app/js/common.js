@@ -6,10 +6,18 @@ $(function () {
 
     Onload();
 
+
+    $(window).resize(function() {
+        initFullpage();
+    });
+
     var catalogImg = $('.catalog-info').data('img');
     if (catalogImg) {
-        $('.catalog-info').append('<img class="catalog-info--img" src="'+ catalogImg +'" />')
+        $('.catalog-info').append('<img class="catalog-info--img" src="'+ catalogImg +'" />');
     }
+
+
+
 
 
 
@@ -43,6 +51,11 @@ $(function () {
             el: '.swiper-pagination',
             clickable: true,
         },
+        breakpoints: {
+            1200: {
+                slidesPerView: 2
+            },
+        }
     });
 
 
@@ -57,6 +70,7 @@ $(function () {
         catalogMenu();
         initChosen();
         initSearch();
+        initCount();
 
     }
 
@@ -117,15 +131,20 @@ $(function () {
        $('section.js-scroll').each(function () {
             if ($(this).outerHeight() < windowHeight) {
                 $(this).height(windowHeight);
+            } else {
+                $(this).height('auto');
             }
        });
 
 
 
-        if (window.location.pathname === '/') {
-            console.log($(window).outerWidth());
+        if ($('.header-menu--home').length) {
             if ( $(window).outerWidth() > 1350 ) {
-                $('.js-scroll').scrollSections();
+                $('.js-scroll').scrollSections({
+                    speed: 750,
+                    createNavigation: false,
+                    scrollMax: 1,
+                });
             }
         }
 
@@ -196,6 +215,49 @@ $(function () {
 
             })
         }
+
+        if( $('.js-video') ) {
+            $(".js-video").fancybox({
+                type: "iframe",
+            })
+        }
+
+
+    }
+
+    function initCount() {
+        $('.sp-banner--bottom-icon').each(function () {
+            var $this = $(this),
+                decrement = $this.attr('data-decrement'),
+                increment = $this.attr('data-increment');
+            if (decrement) {
+                $({countNum: $this.text()}).animate({
+                    countNum: decrement
+                }, {
+                    duration: 5000,
+                    easing: 'linear',
+                    step: function () {
+                        $this.text(Math.ceil(this.countNum));
+                    }
+
+                });
+            }
+
+            if (increment) {
+                $({countNum: $this.text()}).animate({
+                    countNum: increment
+                }, {
+                    duration: 5000,
+                    easing: 'linear',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    }
+
+                });
+            }
+
+
+        });
     }
 
 

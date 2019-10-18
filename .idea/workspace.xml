@@ -2,83 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ff5f41-96b5-4228-a78c-07df7f7e591a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/full/app/ajax/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/full/app/ajax/thanks1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/full/app/ajax/thanks2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/full/app/new-user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/ajax/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/icons/checkbox.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/icons/green-mark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/icons/new-user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/icons/orange-mark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/icons/thanks-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/icons/ul-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mob/app/img/mob-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/full/app/catalog2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/scss/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/_breadcrumbs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/full/app/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/scss/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/_search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/scss/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/_tabs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/full/app/scss/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/scss/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/full/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/full/app/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/ajax/city.html" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/ajax/city.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/catalog-m.html" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-info-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-info-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/catalog-info.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/catalog-info.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/catalog-info-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/catalog-info-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/catalog-info-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/catalog-info-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/catalog-menu-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/catalog-menu-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/catalog-menu-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/catalog-menu-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/chosen-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/chosen-empty.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/chosen-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/chosen-full.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/dark-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/dark-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/green-close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/green-close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/login-orange.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/login-orange.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/marker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/marker.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/icons/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/icons/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/object-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/object-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/object-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/object-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/object-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/object-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/sp1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/sp1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/sp2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/sp2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/sp3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/sp3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/sp4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/sp4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/sp5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/sp5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/img/sp6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/img/sp6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/index-mob.html" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/libs/chosen_v1.8.7/chosen.css" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/libs/chosen_v1.8.7/chosen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/libs/fancybox/jquery.fancybox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/libs/fancybox/jquery.fancybox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/libs/jquery.scrollSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/libs/jquery.scrollSections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/scss/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/scss/_breadcrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/scss/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mob/app/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,80 +17,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6516498">
+    <splitter split-orientation="horizontal" split-proportion="0.5101523">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mob/app/scss/_tabs.scss">
+            <entry file="file://$PROJECT_DIR$/mob/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mob/app/libs/chosen_v1.8.7/chosen.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="507" selection-start-line="507" selection-start-column="2" selection-end-line="519" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mob/app/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="497">
-                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+                <state relative-caret-position="300">
+                  <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="36" />
                   <folding>
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="e#126#132#0" expanded="true" />
-                    <element signature="e#134#140#0" expanded="true" />
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="e#126#132#0" expanded="true" />
-                    <element signature="e#134#140#0" expanded="true" />
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="e#126#132#0" expanded="true" />
-                    <element signature="e#134#140#0" expanded="true" />
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="e#126#132#0" expanded="true" />
-                    <element signature="e#134#140#0" expanded="true" />
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="e#126#132#0" expanded="true" />
-                    <element signature="e#134#140#0" expanded="true" />
-                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-                    <element signature="e#126#132#0" expanded="true" />
-                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#form#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#7;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mob/app/catalog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+                  <folding>
+                    <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#7;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mob/app/new-user.html">
+            <entry file="file://$PROJECT_DIR$/full/app/catalog2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="524">
-                  <caret line="228" column="28" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mob/app/catalog.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="202" column="54" lean-forward="true" selection-start-line="202" selection-start-column="54" selection-end-line="202" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/full/app/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="114" column="25" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="25" />
+                <state relative-caret-position="840">
+                  <caret line="285" column="31" selection-start-line="285" selection-start-column="20" selection-end-line="285" selection-end-column="31" />
+                  <folding>
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -171,39 +80,103 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/full/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="59">
-                  <caret line="503" column="20" lean-forward="true" selection-start-line="503" selection-start-column="20" selection-end-line="524" selection-end-column="26" />
+                <state relative-caret-position="426">
+                  <caret line="266" column="33" lean-forward="true" selection-start-line="261" selection-start-column="28" selection-end-line="266" selection-end-column="33" />
                   <folding>
-                    <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#form#0;n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/full/app/catalog.html">
+            <entry file="file://$PROJECT_DIR$/full/app/libs/jquery/dist/jquery.slim.min.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="45" column="80" lean-forward="true" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+                <state>
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/full/app/scss/_breadcrumbs.scss">
+            <entry file="file://$PROJECT_DIR$/full/app/libs/jquery/dist/jquery.min.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="497">
-                  <caret line="32" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+                <state relative-caret-position="40">
+                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mob/app/scss/_breadcrumbs.scss">
+            <entry file="file://$PROJECT_DIR$/mob/app/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+                <state relative-caret-position="595">
+                  <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+                  <folding>
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/full/app/js/common.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                    <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                    <element signature="e#126#132#0" expanded="true" />
+                    <element signature="e#134#140#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1873">
+                  <caret line="209" column="11" lean-forward="true" selection-start-line="209" selection-start-column="11" selection-end-line="209" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -212,38 +185,38 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mob/app/scss/mobile.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="422">
-                  <caret line="98" column="35" lean-forward="true" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mob/app/scss/catalog.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="485">
-                  <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+                <state relative-caret-position="1250">
+                  <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/full/app/scss/_tabs.scss">
+            <entry file="file://$PROJECT_DIR$/mob/app/scss/mobile.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+                <state relative-caret-position="514">
+                  <caret line="502" column="12" selection-start-line="502" selection-start-column="12" selection-end-line="502" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/full/app/scss/base.scss">
+            <entry file="file://$PROJECT_DIR$/mob/app/scss/_modal.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+                <state relative-caret-position="269">
+                  <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mob/app/scss/base.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="202">
+                  <caret line="224" column="12" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -251,26 +224,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/full/app/scss/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+                <state relative-caret-position="839">
+                  <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/full/app/scss/_modal.scss">
+            <entry file="file://$PROJECT_DIR$/full/app/scss/_media.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="534">
-                  <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+                <state relative-caret-position="412">
+                  <caret line="179" column="2" lean-forward="true" selection-start-line="179" selection-start-column="2" selection-end-line="181" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/full/app/ajax/thanks2.html">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/full/app/scss/menu.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+                <state relative-caret-position="507">
+                  <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -290,23 +263,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.fancybox-content</find>
-      <find>.header-middle--count</find>
-      <find>.reses-filter</find>
-      <find>.catalog-lis</find>
-      <find>grey</find>
-      <find>header</find>
-      <find>sp-object--slider</find>
-      <find>btn</find>
-      <find>input</find>
-      <find>navigation</find>
-      <find>green</find>
-      <find>.sp-object--item</find>
-      <find>.sp-section</find>
-      <find>sp-section--title</find>
-      <find>info</find>
-      <find>districtsHints</find>
-      <find>bottom</find>
       <find>ya</find>
       <find>/</find>
       <find>sp-banner--bottom</find>
@@ -318,8 +274,25 @@
       <find>breadcrumbs</find>
       <find>.btn</find>
       <find>.footer</find>
-      <find>.catalo</find>
       <find>.square-block</find>
+      <find>.catalo</find>
+      <find>box</find>
+      <find>filter</find>
+      <find>btn</find>
+      <find>header-middle</find>
+      <find>sp-banner--action</find>
+      <find>hide-de</find>
+      <find>НАШИ ОБЪЕКТЫ</find>
+      <find>650</find>
+      <find>jQuery.event.handle</find>
+      <find>global</find>
+      <find>preventDefault</find>
+      <find>orange</find>
+      <find>#ya</find>
+      <find>js</find>
+      <find>.catalog-filter</find>
+      <find>people</find>
+      <find>.sp-object</find>
     </findStrings>
     <replaceStrings>
       <replace>nav-icon</replace>
@@ -330,6 +303,7 @@
       <replace>m-b-100</replace>
       <replace>font-family: &quot;Geometria-ExtraBold&quot;, serif;</replace>
       <replace>#C2C6C6</replace>
+      <replace>window</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -338,13 +312,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mob/gulpfile.js" />
-        <option value="$PROJECT_DIR$/full/gulpfile.js" />
-        <option value="$PROJECT_DIR$/full/app/scss/_vars.scss" />
-        <option value="$PROJECT_DIR$/full/logo.svg" />
         <option value="$PROJECT_DIR$/full/app/css/main.min.css" />
         <option value="$PROJECT_DIR$/full/app/scss/_pagination.scss" />
-        <option value="$PROJECT_DIR$/full/app/scss/menu.scss" />
         <option value="$PROJECT_DIR$/full/app/libs/chosen_v1.8.7/chosen.css" />
         <option value="$PROJECT_DIR$/full/app/libs/chosen_v1.8.7/chosen.jquery.js" />
         <option value="$PROJECT_DIR$/full/app/libs/swiper/swiper.js" />
@@ -359,17 +328,9 @@
         <option value="$PROJECT_DIR$/mob/app/catalog-m.html" />
         <option value="$PROJECT_DIR$/full/app/scss/grid.scss" />
         <option value="$PROJECT_DIR$/full/app/scss/_search.scss" />
-        <option value="$PROJECT_DIR$/full/app/scss/_media.scss" />
         <option value="$PROJECT_DIR$/full/app/ajax/login.html" />
-        <option value="$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js" />
         <option value="$PROJECT_DIR$/mob/app/scss/main.scss" />
         <option value="$PROJECT_DIR$/mob/app/23..html" />
-        <option value="$PROJECT_DIR$/full/app/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/full/app/js/common.js" />
-        <option value="$PROJECT_DIR$/mob/app/index.html" />
-        <option value="$PROJECT_DIR$/mob/app/scss/_modal.scss" />
-        <option value="$PROJECT_DIR$/full/app/index.html" />
-        <option value="$PROJECT_DIR$/full/app/scss/catalog.scss" />
         <option value="$PROJECT_DIR$/full/app/scss/main.scss" />
         <option value="$PROJECT_DIR$/full/app/ajax/thanks1.html" />
         <option value="$PROJECT_DIR$/full/app/ajax/thanks2.html" />
@@ -378,17 +339,30 @@
         <option value="$PROJECT_DIR$/full/app/scss/_breadcrumbs.scss" />
         <option value="$PROJECT_DIR$/mob/app/scss/_breadcrumbs.scss" />
         <option value="$PROJECT_DIR$/mob/app/libs/chosen_v1.8.7/chosen.css" />
-        <option value="$PROJECT_DIR$/mob/app/catalog.html" />
-        <option value="$PROJECT_DIR$/mob/app/scss/base.scss" />
         <option value="$PROJECT_DIR$/mob/app/scss/_tabs.scss" />
         <option value="$PROJECT_DIR$/mob/app/new-user.html" />
-        <option value="$PROJECT_DIR$/mob/app/scss/catalog.scss" />
-        <option value="$PROJECT_DIR$/mob/app/js/common.js" />
-        <option value="$PROJECT_DIR$/mob/app/scss/mobile.scss" />
-        <option value="$PROJECT_DIR$/full/app/scss/base.scss" />
         <option value="$PROJECT_DIR$/full/app/catalog.html" />
-        <option value="$PROJECT_DIR$/full/app/scss/footer.scss" />
         <option value="$PROJECT_DIR$/full/app/scss/_modal.scss" />
+        <option value="$USER_HOME$/Downloads/archive19-10-17/top_caregory_1.svg" />
+        <option value="$USER_HOME$/Downloads/archive19-10-17/top_caregory_2.svg" />
+        <option value="$USER_HOME$/Downloads/archive19-10-17/top_caregory_5.svg" />
+        <option value="$PROJECT_DIR$/full/app/catalog2.html" />
+        <option value="$PROJECT_DIR$/full/app/scss/_header.scss" />
+        <option value="$PROJECT_DIR$/full/app/scss/catalog.scss" />
+        <option value="$PROJECT_DIR$/full/app/index.html" />
+        <option value="$PROJECT_DIR$/mob/app/scss/base.scss" />
+        <option value="$PROJECT_DIR$/full/app/scss/_media.scss" />
+        <option value="$PROJECT_DIR$/full/app/scss/footer.scss" />
+        <option value="$PROJECT_DIR$/full/app/js/common.js" />
+        <option value="$PROJECT_DIR$/full/app/scss/base.scss" />
+        <option value="$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js" />
+        <option value="$PROJECT_DIR$/mob/app/scss/catalog.scss" />
+        <option value="$PROJECT_DIR$/mob/app/scss/_modal.scss" />
+        <option value="$PROJECT_DIR$/mob/app/index.html" />
+        <option value="$PROJECT_DIR$/mob/app/scss/mobile.scss" />
+        <option value="$PROJECT_DIR$/mob/app/js/common.js" />
+        <option value="$PROJECT_DIR$/mob/app/catalog.html" />
+        <option value="$PROJECT_DIR$/full/app/scss/menu.scss" />
       </list>
     </option>
   </component>
@@ -443,6 +417,19 @@
               <item name="SP2" type="462c0819:PsiDirectoryNode" />
               <item name="mob" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SP2" type="462c0819:PsiDirectoryNode" />
+              <item name="mob" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SP2" type="462c0819:PsiDirectoryNode" />
+              <item name="mob" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -458,24 +445,24 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mob/app/img/icons" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/archive19-10-17" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mob/app/img/icons" />
-      <recent name="$PROJECT_DIR$/full/app/ajax" />
-      <recent name="$PROJECT_DIR$/mob/app" />
-      <recent name="$PROJECT_DIR$/mob/app/scss" />
-      <recent name="$PROJECT_DIR$/full/app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mob/app" />
       <recent name="$PROJECT_DIR$/app/img" />
       <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Downloads/archive19-10-17" />
+      <recent name="$PROJECT_DIR$/mob/app/img/icons" />
+      <recent name="$PROJECT_DIR$/full/app/ajax" />
+      <recent name="$PROJECT_DIR$/mob/app" />
+      <recent name="$PROJECT_DIR$/mob/app/scss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -602,12 +589,14 @@
       <workItem from="1570774739767" duration="19924000" />
       <workItem from="1570806213135" duration="152000" />
       <workItem from="1571123212405" duration="14552000" />
-      <workItem from="1571206852114" duration="8811000" />
+      <workItem from="1571206852114" duration="14637000" />
+      <workItem from="1571296285460" duration="9182000" />
+      <workItem from="1571379867720" duration="7605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="635021000" />
+    <option name="totallyTimeSpent" value="657634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -642,86 +631,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/full/app/libs/swiper/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/libs/swiper/swiper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="320" selection-start-line="320" selection-start-column="2" selection-end-line="322" selection-end-column="3" />
-          <folding>
-            <element signature="e#6081#6339#2" expanded="true" />
-            <element signature="e#6463#6721#2" expanded="true" />
-            <element signature="e#6885#7143#2" expanded="true" />
-            <element signature="e#7274#7532#2" expanded="true" />
-            <element signature="e#7663#7921#2" expanded="true" />
-            <element signature="e#8052#8310#2" expanded="true" />
-            <element signature="e#16569#18016#2" expanded="true" />
-            <element signature="e#18170#19614#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="213" column="36" selection-start-line="213" selection-start-column="36" selection-end-line="213" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_pagination.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="15" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/_pagination.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/libs/fancybox/jquery.fancybox.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2947" selection-start-column="2947" selection-end-column="2947" />
-          <folding>
-            <element signature="e#6932#7239#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/mobile.scss" />
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/libs/fancybox/jquery.fancybox.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="10" selection-start-line="7" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/scss/_search.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -736,27 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full/app/scss/_search.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="231" column="13" lean-forward="true" selection-start-line="231" selection-start-column="13" selection-end-line="231" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="221" column="11" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/ajax/city.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -800,13 +685,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/img/icons/checkbox.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/catalog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="360" selection-start-line="360" selection-end-line="360" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/full/app/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -829,38 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/ajax/thanks2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_tabs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="51" column="47" lean-forward="true" selection-end-line="743" selection-end-column="7" />
-          <folding>
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full/app/new-user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -871,41 +717,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_breadcrumbs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/img/icons/new-user.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/_breadcrumbs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/libs/chosen_v1.8.7/chosen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="507" selection-start-line="507" selection-start-column="2" selection-end-line="519" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="202" column="54" lean-forward="true" selection-start-line="202" selection-start-column="54" selection-end-line="202" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="283" column="20" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -916,98 +734,293 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/libs/chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/new-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="4560">
           <caret line="228" column="28" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/js/common.js">
+    <entry file="file://$PROJECT_DIR$/mob/app/scss/_breadcrumbs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#134#140#0" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#134#140#0" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#134#140#0" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#134#140#0" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#134#140#0" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#134#140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/index.html">
+    <entry file="file://$PROJECT_DIR$/full/app/scss/_tabs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="503" column="20" lean-forward="true" selection-start-line="503" selection-start-column="20" selection-end-line="524" selection-end-column="26" />
-          <folding>
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="780">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/ajax/thanks2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/archive19-10-17/top_caregory_1-white.svg" />
+    <entry file="file://$USER_HOME$/Downloads/archive19-10-17/top_caregory_5w.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/archive19-10-17/top_caregory_5.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/archive19-10-17/top_caregory_2w.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/archive19-10-17/top_caregory_2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/archive19-10-17/top_caregory_1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/scss/_breadcrumbs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="32" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/full/app/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="45" column="80" lean-forward="true" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+        <state relative-caret-position="234">
+          <caret line="36" column="52" selection-end-line="1080" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/base.scss">
+    <entry file="file://$PROJECT_DIR$/full/app/scss/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="513">
+          <caret line="293" column="36" selection-start-line="293" selection-start-column="36" selection-end-line="293" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/scss/catalog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="412" column="18" lean-forward="true" selection-start-line="412" selection-start-column="18" selection-end-line="412" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/catalog2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="285" column="31" selection-start-line="285" selection-start-column="20" selection-end-line="285" selection-end-column="31" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/libs/jquery/dist/jquery.slim.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/libs/jquery/dist/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/full/app/scss/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="839">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/app/scss/_modal.scss">
+    <entry file="file://$PROJECT_DIR$/full/app/scss/base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="309">
+          <caret line="220" column="19" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/libs/jquery.scrollSections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1873">
+          <caret line="209" column="11" lean-forward="true" selection-start-line="209" selection-start-column="11" selection-end-line="209" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mob/app/scss/catalog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="1250">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mob/app/scss/mobile.scss">
+    <entry file="file://$PROJECT_DIR$/full/app/scss/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="98" column="35" lean-forward="true" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+        <state relative-caret-position="412">
+          <caret line="179" column="2" lean-forward="true" selection-start-line="179" selection-start-column="2" selection-end-line="181" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/scss/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="266" column="33" lean-forward="true" selection-start-line="261" selection-start-column="28" selection-end-line="266" selection-end-column="33" />
+          <folding>
+            <element signature="n#form#0;n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/full/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/scss/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/scss/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#134#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding>
+            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mob/app/scss/mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="502" column="12" selection-start-line="502" selection-start-column="12" selection-end-line="502" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/app/scss/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
         </state>
       </provider>
     </entry>

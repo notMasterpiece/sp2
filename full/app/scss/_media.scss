@@ -41,7 +41,15 @@
 
 
   @media only screen and (max-width : 1300px) {
-
+    .catalog-row--item-text li {
+      width: 100%;
+    }
+    .catalog-row--item-text {
+      padding: 40px;
+    }
+    .catalog-row--item-text a {
+      margin-right: 0;
+    }
   }
 
 
@@ -81,11 +89,6 @@
       position: static;
       padding: 10px 0;
     }
-    .sp-object--item {
-      max-width: 500px;
-      width: 500px;
-      min-width: 500px;
-    }
     #ya-map {
       position: static;
       width: 100%;
@@ -99,6 +102,12 @@
     }
     .catalog-info {
       padding: 50px 0;
+    }
+    .sp-map .row, .sp-map .container {
+      height: auto;
+    }
+    .ya-map--icons {
+      position: static;
     }
   }
   /**/

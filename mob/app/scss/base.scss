@@ -155,6 +155,15 @@ a.grey {
     color: #fff;
     background-color: $green;
   }
+  &-fill {
+    background-color: $green;
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+      color: $green;
+      background-color: #fff;
+    }
+  }
 }
 
 
@@ -370,3 +379,4 @@ h2 {
     background-image: url('../img/icons/thanks-check.svg');
   }
 }
+

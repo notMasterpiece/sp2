@@ -25,7 +25,7 @@
 <div class="sp-block--overlay"></div>
 <header class="header">
     <div class="header-top">
-        <a href="#" class="header-top--region">
+        <a href="ajax/city.html" class="header-top--region js-ajax">
             Московская область
             <img src="img/icons/arr-down.svg" alt="">
         </a>
@@ -36,9 +36,14 @@
         <a href="#" class="toggle-mnu"><span></span></a>
         <a href="#" class="header-middle-logo">
             <img src="img/icons/sp-m.svg" alt="">
+            <img src="img/icons/small-logo.svg" alt="">
         </a>
 
         <div class="header-middle--actions">
+            <div class="header-middle--filter">
+                <span>Фильтр</span>
+                <img src="img/icons/filter.svg" alt="">
+            </div>
             <div class="header-middle--search">
                 <img src="img/icons/search.svg" alt="">
             </div>
@@ -48,9 +53,9 @@
                 <img src="img/icons/basket.svg" alt="">
             </div>
 
-            <div class="header-middle--login">
+            <a href="ajax/login.html" class="header-middle--login js-ajax">
                 <img src="img/icons/login.svg" alt="">
-            </div>
+            </a>
         </div>
 
 
@@ -140,6 +145,7 @@
         </ul>
 
     </div>
+
     <form action="" class="search-form">
         <input type="text" value="">
         <button type="button" class="search-form--close">
@@ -973,6 +979,129 @@
 
 </footer>
 
+    <div class="catalog-filter">
+        <div class="container">
+            <form class="catalog-filter--form">
+                <div class="catalog-filter--body">
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Тип продукции:</div>
+                        <div class="catalog-filter--select">
+                            <select data-placeholder="Тип продукции" class="sp-select" >
+                                <option></option>
+                                <option value="">Тип продукции 200</option>
+                                <option value="">Тип продукции 1</option>
+                                <option value="">Тип продукции 100</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Материал:</div>
+                        <div class="catalog-filter--select">
+                            <select multiple data-placeholder="Материал:" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">Пластик</option>
+                                <option value="">Фибробетон</option>
+                                <option value="">Полимербетон</option>
+                                <option value="">Высокопрочный чугун</option>
+                                <option value="">Медь</option>
+                                <option value="">Нержавеющая сталь</option>
+                                <option value="">Оцинкованная сталь</option>
+                                <option value="">Чугун</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Класcы нагрузки:</div>
+                        <div class="catalog-filter--select">
+                            <select multiple data-placeholder="Класcы нагрузки" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">D100</option>
+                                <option value="">D302</option>
+                                <option value="">D45</option>
+                                <option value="">DB34</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Гидравлическое сечение:</div>
+                        <div class="catalog-filter--select">
+                            <select multiple data-placeholder="Гидравлическое сечение" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">D100</option>
+                                <option value="">D302</option>
+                                <option value="">D45</option>
+                                <option value="">DB34</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Тип водоотвода:</div>
+                        <div class="catalog-filter--select">
+                            <select data-placeholder="Тип водоотвода" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">Тип 1</option>
+                                <option value="">Тип 2</option>
+                                <option value="">Тип 3</option>
+                                <option value="">Тип 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Тип решетки / крышки:</div>
+                        <div class="catalog-filter--select">
+                            <select data-placeholder="Тип решетки / крышки" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">BetoMax - бетон</option>
+                                <option value="">BetoMax - бетон </option>
+                                <option value="">BetoMax - бетон BetoMax - бетон BetoMax - бетонBetoMax - бетон BetoMax - бетон</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Серия по материалу:</div>
+                        <div class="catalog-filter--select">
+                            <select data-placeholder="Серия по материалу" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">Серия 1</option>
+                                <option value="">Серия 100</option>
+                                <option value="">Серия 30</option>
+                                <option value="">Серия 3434</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="catalog-filter--item">
+                        <div class="catalog-filter--label">Серия:</div>
+                        <div class="catalog-filter--select">
+                            <select data-placeholder="Серия" class="sp-select" >
+                                <option value=""></option>
+                                <option value="">№ 1</option>
+                                <option value="">№ 1212</option>
+                                <option value="">№ 12121</option>
+                                <option value="">№ 121212</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-filter--footer">
+                    <button type="submit" class="btn btn-fill">
+                        <span>применить</span>
+                    </button>
+                    <button type="button" class="reses-filter">
+                        <span>Сбросить фильтр</span>
+                        <img src="img/icons/green-close.svg" alt="">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
 
 </div>
 
@@ -996,6 +1125,6 @@
 <script src="libs/swiper/swiper.js"></script>
 <script src="libs/fancybox/jquery.fancybox.js"></script>
 <script src="libs/chosen_v1.8.7/chosen.jquery.js"></script>
-<script src="js/common.js"></script>
+<script src="js/common.js?ver=1"></script>
 
 </html>

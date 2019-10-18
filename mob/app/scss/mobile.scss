@@ -31,6 +31,60 @@
   padding: 25px 20px;
   border-bottom: 1px solid #E9EAEB;
   position: relative;
+  .header-middle--filter,
+  .header-middle-logo img:nth-child(2) {
+    display: none;
+  }
+  &.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    max-width: 800px;
+    transform: translateX(-50%);
+    padding: 16px 20px;
+    background-color: #fff;
+    z-index: 2;
+    height: 70px;
+    .header-middle--filter,
+    .header-middle-logo img:nth-child(2) {
+      display: block;
+    }
+    .toggle-mnu {
+      margin-top: 8px;
+    }
+    .header-middle-logo {
+      margin-top: 3px;
+    }
+    .header-middle--actions {
+      align-items: center;
+    }
+    .header-middle--search img {
+      width: 20px;
+      height: 20px;
+    }
+    .header-middle--search {
+      margin-right: 0;
+      margin-left: 20px;
+      display: flex;
+    }
+    .header-middle--filter {
+      color: #3C3C3B;
+      font-size: 13px;
+      line-height: 30px;
+    }
+    .header-middle--filter img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-left: 15px;
+    }
+    .header-middle-logo img:first-child,
+    .header-middle--basket,
+    .header-middle--login {
+      display: none;
+    }
+  }
 }
 
 .header {
@@ -199,6 +253,10 @@
 .header-middle--actions {
   display: flex;
   margin-left: auto;
+  img {
+    width: 20px;
+    height: 20px;
+  }
   > div:not(:last-child) {
     margin-right: 16px;
   }
@@ -440,9 +498,9 @@ section .btn {
     content: '';
     position: absolute;
     top: 0px;
-    left: 15px;
+    left: 0;
     bottom: 80px;
-    right: 15px;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 2;
     opacity: 0;
@@ -478,4 +536,20 @@ body .fancybox-content {
 
 .sp-object--list .swiper-slide {
   text-align: center;
+}
+
+
+.bottom-item {
+  display: block;
+}
+
+
+@media only screen and (max-width : 359px) {
+  .header-middle-logo img:first-child {
+    display: none;
+  }
+
+  .header-middle .header-middle-logo img:last-child {
+    display: block;
+  }
 }

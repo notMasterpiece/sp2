@@ -344,11 +344,6 @@
   width: auto;
 }
 
-.sp-object--slider .swiper-slide {
-  flex: 0 0 33.3333333333%;
-  max-width: 33.3333333333%;
-}
-
 
 
 .compare {
@@ -358,3 +353,92 @@
 
 
 
+.catalog-row {
+  padding: 20px 0;
+  &--item {
+    background: #FFFFFF;
+    border: 1px solid #E9EAEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+    min-height: 300px;
+    transition: box-shadow 400ms ease-in-out;
+    &:hover {
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+      &:before {
+        background-color: #fff;
+      }
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      bottom: 0;
+      background-color: #F5F3F3;
+      transition: background-color 400ms ease-in-out;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      bottom: 0;
+      z-index: 3;
+      border-right: 1px solid #E9EAEB;
+    }
+    &-img {
+      width: 300px;
+      min-width: 300px;
+      position: relative;
+      text-align: center;
+      padding: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h2 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #101112;
+      }
+    }
+    &-text {
+      padding: 40px 70px;
+      width: 100%;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      li {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+      }
+      a {
+        display: inline-block;
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+        line-height: 20px;
+        margin-right: 70px;
+        span {
+          &:hover {
+            color: $green;
+            border-bottom: 1px solid $green;
+            text-shadow: 0 0 0.5px $green;
+          }
+        }
+      }
+    }
+  }
+}
+
+body .ymaps-2-1-74-copyright {
+  display: none;
+}

@@ -9,6 +9,8 @@ body {
   font-family: "Geometria", sans-serif;
   overflow-x: hidden;
   color: $black;
+  touch-action: none;
+  scroll-behavior: smooth;
 }
 
 
@@ -158,10 +160,11 @@ section {
   z-index: -100;
 }
 .sp-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .video-wrap:before {
@@ -212,6 +215,10 @@ body.overlay {
 
 .js-scroll {
   min-height: 800px;
+}
+
+.sp-map {
+  overflow: hidden;
 }
 
 .sp-checkbox {
@@ -272,6 +279,7 @@ h1 {
   font-size: 70px;
   line-height: 80px;
   margin: 40px 0;
+  text-transform: uppercase;
 }
 
 .grey-section {
@@ -355,4 +363,14 @@ h1 {
     margin-right: 30px;
     background-image: url('../img/icons/thanks-check.svg');
   }
+}
+
+.hide-desktop {
+  display: none;
+}
+
+
+::selection {
+  background-color: $green;
+  color: #fff;
 }

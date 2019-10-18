@@ -15,8 +15,6 @@
     list-style-type: none;
     position: relative;
     z-index: 10;
-
-
     &--ul {
       .header-menu--button {
         a {
@@ -36,7 +34,8 @@
           display: block;
           padding: 20px;
           text-transform: uppercase;
-          text-shadow: 0 0 0.5px $black;
+          //text-shadow: 0 0 0.5px $black;
+          font-family: 'GothamPro-Bold', serif;
           &:hover {
             text-decoration: none;
             color: $green;
@@ -177,8 +176,12 @@
     .header-menu--ul > li > a {
       color: #fff;
     }
-    .header-menu--ul > li.has-child > a::after {
-      color: $orange;
+    .header-menu--ul > li.has-child > a {
+      &:hover {
+        &:after {
+          color: $orange;
+        }
+      }
     }
     .toggle-mnu.on span:after,
     .toggle-mnu.on span:before,
